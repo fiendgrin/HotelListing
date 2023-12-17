@@ -1,0 +1,10 @@
+2023-12-17 20:53:47.558 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-17 20:53:47.697 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-17 20:53:47.703 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-17 20:53:47.705 +04:00 [INF] Hosting environment: Development
+2023-12-17 20:53:47.706 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-17 20:56:23.956 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-17 20:56:24.063 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-17 20:56:24.073 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-17 20:56:24.112 +04:00 [INF] Hosting environment: Development
+2023-12-17 20:56:24.113 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
