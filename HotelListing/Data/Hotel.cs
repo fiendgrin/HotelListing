@@ -12,7 +12,7 @@ namespace HotelListing.Data
         public double Rating { get; set; }
 
         [ForeignKey(nameof(CountryId))]
-        public int CountryId { get; set; }
-        public Country Country { get; set; }
+        public int? CountryId { get; set; }
+        public Country? Country { get; set; }
     }
 }
