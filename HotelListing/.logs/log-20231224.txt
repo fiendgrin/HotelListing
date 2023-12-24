@@ -1,0 +1,173 @@
+2023-12-24 00:37:42.337 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-24 00:37:42.419 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-24 00:37:42.425 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 00:37:42.427 +04:00 [INF] Hosting environment: Development
+2023-12-24 00:37:42.428 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-24 19:52:01.666 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-24 19:52:02.053 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-24 19:52:02.056 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 19:52:02.057 +04:00 [INF] Hosting environment: Development
+2023-12-24 19:52:02.058 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-24 19:52:12.345 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Account/register" for actions - HotelListing.Controllers.AccountController.Register (HotelListing),HotelListing.Controllers.AccountController.Login (HotelListing). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-24 19:52:47.276 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Account/register" for actions - HotelListing.Controllers.AccountController.Register (HotelListing),HotelListing.Controllers.AccountController.Login (HotelListing). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-24 19:53:14.297 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Account/register" for actions - HotelListing.Controllers.AccountController.Register (HotelListing),HotelListing.Controllers.AccountController.Login (HotelListing). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-24 19:53:14.816 +04:00 [INF] HTTP GET /favicon.ico responded 404 in 13.8128 ms
+2023-12-24 19:53:43.022 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-24 19:53:43.059 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-24 19:53:43.063 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 19:53:43.064 +04:00 [INF] Hosting environment: Development
+2023-12-24 19:53:43.065 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-24 19:57:28.193 +04:00 [ERR] HTTP POST /api/Account/login responded 500 in 6343.1688 ms
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at HotelListing.Repository.AuthManager.GenerateToken(ApiUser user) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 91
+   at HotelListing.Repository.AuthManager.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 37
+   at HotelListing.Controllers.AccountController.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Controllers\AccountController.cs:line 49
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-24 19:57:28.442 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at HotelListing.Repository.AuthManager.GenerateToken(ApiUser user) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 91
+   at HotelListing.Repository.AuthManager.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 37
+   at HotelListing.Controllers.AccountController.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Controllers\AccountController.cs:line 49
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-24 19:58:34.752 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-24 19:58:34.785 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-24 19:58:34.788 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 19:58:34.789 +04:00 [INF] Hosting environment: Development
+2023-12-24 19:58:34.789 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-24 19:58:51.729 +04:00 [ERR] HTTP POST /api/Account/login responded 500 in 1579.5195 ms
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at HotelListing.Repository.AuthManager.GenerateToken(ApiUser user) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 91
+   at HotelListing.Repository.AuthManager.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 37
+   at HotelListing.Controllers.AccountController.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Controllers\AccountController.cs:line 49
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-12-24 19:58:51.751 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at HotelListing.Repository.AuthManager.GenerateToken(ApiUser user) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 91
+   at HotelListing.Repository.AuthManager.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Repository\AuthManager.cs:line 37
+   at HotelListing.Controllers.AccountController.Login(LoginDTO loginDTO) in C:\Users\yunis\source\repos\HotelListing\HotelListing\Controllers\AccountController.cs:line 49
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-24 20:03:30.733 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-24 20:03:30.767 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-24 20:03:30.770 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 20:03:30.771 +04:00 [INF] Hosting environment: Development
+2023-12-24 20:03:30.772 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-24 20:03:46.547 +04:00 [INF] HTTP POST /api/Account/login responded 200 in 1714.8640 ms
+2023-12-24 20:15:50.683 +04:00 [INF] HTTP POST /api/Account/login responded 200 in 356.0428 ms
+2023-12-24 20:16:34.063 +04:00 [INF] HTTP GET /api/Countries responded 200 in 111.6141 ms
+2023-12-24 20:16:40.703 +04:00 [INF] HTTP GET /api/Countries responded 200 in 2.5742 ms
+2023-12-24 20:17:04.003 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-24 20:17:04.038 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-24 20:17:04.042 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 20:17:04.043 +04:00 [INF] Hosting environment: Development
+2023-12-24 20:17:04.044 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-24 20:17:28.138 +04:00 [INF] HTTP GET /api/Countries responded 401 in 161.0306 ms
+2023-12-24 20:17:32.333 +04:00 [INF] HTTP GET /api/Countries responded 401 in 238.6223 ms
+2023-12-24 20:17:39.233 +04:00 [INF] HTTP GET /api/Countries responded 401 in 2.6611 ms
+2023-12-24 20:17:46.916 +04:00 [INF] HTTP POST /api/Account/login responded 200 in 1921.0046 ms
+2023-12-24 20:17:58.812 +04:00 [INF] HTTP GET /api/Countries responded 401 in 0.4122 ms
+2023-12-24 20:18:03.674 +04:00 [INF] HTTP POST /api/Account/login responded 200 in 60.4804 ms
+2023-12-24 20:18:33.871 +04:00 [INF] HTTP GET /api/Countries responded 401 in 0.2938 ms
+2023-12-24 20:20:22.935 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-24 20:20:22.995 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-24 20:20:22.999 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 20:20:23.000 +04:00 [INF] Hosting environment: Development
+2023-12-24 20:20:23.002 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-24 20:20:32.839 +04:00 [INF] HTTP GET /api/Countries responded 200 in 1649.3544 ms
+2023-12-24 20:20:39.757 +04:00 [INF] HTTP GET /api/Countries responded 401 in 5.1065 ms
+2023-12-24 20:20:42.677 +04:00 [INF] HTTP GET /api/Countries responded 200 in 49.3386 ms

@@ -1556,3 +1556,9 @@ Error Number:547,State:0,Class:16
 2023-12-23 03:02:42.676 +04:00 [INF] HTTP GET /api/hotels responded 200 in 81.8296 ms
 2023-12-23 03:03:13.344 +04:00 [INF] HTTP GET /api/hotels/5 responded 404 in 155.5074 ms
 2023-12-23 03:03:17.009 +04:00 [INF] HTTP GET /api/hotels/6 responded 200 in 34.4062 ms
+2023-12-23 21:01:57.188 +04:00 [INF] Now listening on: https://localhost:7134
+2023-12-23 21:01:57.624 +04:00 [INF] Now listening on: http://localhost:5096
+2023-12-23 21:01:57.628 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-23 21:01:57.629 +04:00 [INF] Hosting environment: Development
+2023-12-23 21:01:57.630 +04:00 [INF] Content root path: C:\Users\yunis\source\repos\HotelListing\HotelListing\
+2023-12-23 21:03:54.320 +04:00 [INF] HTTP POST /api/Account/register responded 200 in 19824.2558 ms
